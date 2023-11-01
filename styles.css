@@ -13,14 +13,16 @@ h1 {
 }
 
 button {
-    padding: 10px 20px; /* Adjust the padding as needed */
+    padding: 10px 20px;
+    width: 15%;
     font-size: 16px;
     background-color: #007BFF;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    display: inline-block; /* Added to reduce button width */
+    display: inline-block;
+    text-align: center;
 }
 
 button:hover {
