@@ -36,7 +36,7 @@ function shuffleDeck() {
 
   // Display the first five shuffled cards
   const output = document.getElementById("output");
-  output.innerHTML = "The first five cards are:<br>";
+  output.innerHTML = "The first five cards are:<br><br>";
   for (let i = 0; i < 5; i++) {
     output.innerHTML += deck[i] + "<br>";
   }
